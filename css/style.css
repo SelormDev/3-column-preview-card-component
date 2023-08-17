@@ -102,25 +102,73 @@ button {
 
 button:hover {
   cursor: pointer;
-  outline: 1px solid hsl(0 ,0%, 95%);
-  color: hsl(0 ,0%, 95%);
+  outline: 1px solid hsl(0, 0%, 95%);
+  color: hsl(0, 0%, 95%);
   font-weight: 400;
-  }
-
-.footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 0.5%;
-  background-color: hsl(0, 0%, 95%);
-  padding: 32px;
-  text-align: center;
 }
 
-.attribution {
+/* .attribution {
   font-size: 11px;
   text-align: center;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+} */
+
+@media screen and (max-width: 768px) {
+  body {
+    min-height: 100%;
+  }
+  .container {
+    max-width: 90%;
+    display: block;
+    /* max-height: ; */
+  }
+
+  .card {
+    padding: 16px;
+    height: 70%;
+  }
+
+  .sedan {
+    border-radius: 16px 16px 0 0;
+  }
+
+  .luxury {
+    border-radius: 0 0 16px 16px;
+  }
+
+  img {
+    margin: 16px 0;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  button {
+    font-size: 14px;
+    margin: 2rem 0;
+  }
+
+  /* 
+  
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+  */
+
+  footer {
+    padding: 16px;
+    height: 20px;
+  }
 }
