@@ -118,6 +118,7 @@ button:hover {
 @media screen and (max-width: 768px) {
   body {
     min-height: 100%;
+    margin: 1rem 0;
   }
   .container {
     max-width: 90%;
