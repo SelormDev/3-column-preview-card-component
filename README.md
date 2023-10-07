@@ -24,9 +24,8 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](https://your-solution-url.com)
+- [Solution URL](https://github.com/SelormDev/3-column-preview-card-component/tree/main)
 - [Live Site URL](http://selormdev.me/3-column-preview-card-component/)
--
 
 ### Built with
 
